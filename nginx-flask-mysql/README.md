@@ -3,6 +3,8 @@
 
 ### SOURCE: https://github.com/docker/awesome-compose/tree/master
 
+*./backend/requirements.txt updated as errors were occuring*
+
 Project structure:
 ```
 .
