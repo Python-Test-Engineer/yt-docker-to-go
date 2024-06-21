@@ -19,3 +19,7 @@ Updated to current:
 http://localhost:5555/tasks
 
 docker-compose up -d --build --scale celery=3
+
+docker-compose exec web python -m pytest -k "test_task and not test_home"
+
+docker-compose exec web python -m pytest -k "test_mock_task" -vs
