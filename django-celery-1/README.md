@@ -14,3 +14,8 @@ Updated to current:
 - docker-compose up -d --build
 - http://localhost:1337
 - docker-compose exec web python -m pytest -vs
+
+
+http://localhost:5555/tasks
+
+docker-compose up -d --build --scale celery=3
