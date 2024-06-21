@@ -1,6 +1,8 @@
 ## Compose sample application
 ### Python/Flask application using a Redis database
 
+### SOURCE: https://github.com/docker/awesome-compose/tree/master
+
 Project structure:
 
 ```

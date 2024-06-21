@@ -1,6 +1,8 @@
 ## Compose sample application
 ### Python/FastAPI application
 
+### SOURCE: https://github.com/docker/awesome-compose/tree/master
+
 Project structure:
 ```
 ├── compose.yaml

@@ -1,6 +1,8 @@
 ## Compose sample application
 ### Python/Flask with Nginx proxy and MySQL database
 
+### SOURCE: https://github.com/docker/awesome-compose/tree/master
+
 Project structure:
 ```
 .
