@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 
-from tasks.views import get_status, home, run_task
+from tasks.views import get_status, home, run_task, create_task
 
 urlpatterns = [
     path("admin/", admin.site.urls),
