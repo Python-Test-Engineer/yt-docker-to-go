@@ -4,7 +4,7 @@ from tasks import sample_tasks
 from unittest.mock import patch
 
 
-def test_home(client):
+def test_home_url(client):
     url = reverse("home")
     response = client.get(url)
     assert response.status_code == 200
@@ -48,7 +48,8 @@ def test_task_status(client):
     }
 
 
-def test_task():
+def test_long_tasks():
+    print("Takes about a minute to run...")
     assert sample_tasks.create_task.run(1)
     assert sample_tasks.create_task.run(2)
     assert sample_tasks.create_task.run(3)
