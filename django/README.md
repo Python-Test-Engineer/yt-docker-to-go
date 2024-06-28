@@ -14,7 +14,8 @@ https://www.youtube.com/watch?v=aMqs_y6dZw4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQym
 
 ## Set up
 
-As per cmd.md
+Create venv and install...
 
-- docker-compose build
-- docker-compose up
+docker compose up -d --build
+
+http://127.0.0.1:8000/ 
