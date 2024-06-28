@@ -1,5 +1,13 @@
 ## Compose sample application
+
 ### Python/FastAPI application
+
+- Create venv and install...
+- `docker-compose up -d --build`
+- `python .\app\main.py`
+
+http://localhost:8000/ or http://127.0.0.1:8000/
+
 
 ### SOURCE: https://github.com/docker/awesome-compose/tree/master
 
