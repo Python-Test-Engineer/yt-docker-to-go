@@ -1,5 +1,10 @@
 ## Compose sample application
+
 ### Python/Flask with Nginx proxy and MySQL database
+
+docker compose up -d
+
+http://127.0.0.1:8000/
 
 ### SOURCE: https://github.com/docker/awesome-compose/tree/master
 
