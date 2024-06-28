@@ -1,5 +1,12 @@
 ## Compose sample application
+
+## *Use localhost:8000 not 127.0.0.1:8000*
+
 ### Python/Flask application using a Redis database
+
+Usual set up venv and install dependencies.
+
+`docker compose up -d` - compose.yaml is new spec but docker-compose.yaml supported for backward compatibility.
 
 ### SOURCE: https://github.com/docker/awesome-compose/tree/master
 

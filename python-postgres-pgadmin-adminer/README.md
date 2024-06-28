@@ -2,9 +2,22 @@ Set up of Docker with Postgress, PgAdmin and Adminer with Python CRUD.
 
 Combines PgAdmin and Adminer for DB viewing.
 
-TESTED 21JUN2024
+Ensure Docker is running.
 
-[YouTube](https://youtu.be/mipRKPHwlBkI) - NB sql code files renumbered since video
+Create venv and pip install requirments.
+
+
+### Tested: 28JUN2024
+
+If you ever unable to login to PgAdmin when you have been able to do so before, delete all images/vols/containers for this set up and reclone repo. This happened to me and doing the afore mentioned solved the issue.
+
+Python SQL worked fine.
+
+### Other Docker compose files
+
+I have added a `docker-compose-named-volume.yml` if you prefer this to having the data saved in the project with a bound mount volume.
+
+[YouTube](https://youtu.be/mipRKPHwlBkI)
 
 https://youtu.be/mipRKPHwlBk
 
@@ -50,5 +63,7 @@ run docker-compose up in terminal ->
 ### Adminer
 
 admininer login on port http://localhost:8080
+
+password and most variables are `postgres`. You can change them as you wish.
 
 <img src="./images/adminer-login.png"  width="500" >
