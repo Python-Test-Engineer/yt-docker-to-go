@@ -1,7 +1,0 @@
-
-Django
-pytest
-pytest-django
-celery
-redis
-flower
