@@ -8,4 +8,10 @@ services:
       PORT: 8000
     ports:
       - '8000:8000'
-    restart: "no"
+    develop:
+      watch:
+        - path: app/
+          target: /app
+          action: sync
+ 
+  
