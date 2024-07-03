@@ -1,5 +1,9 @@
 # Hot reload of FastAPI
 
+Version no longer required in compose file.
+
+`compose.yaml` can replace `docker-compose.yaml` as default compose file.
+
 ### Tested 02JUL2024
 
 Based on https://www.youtube.com/watch?v=CzAyaSolZjY but I have split COPY into first time just requirements.txt to cache this and then another copy for rest of files. This prevents reinstalling requirments on rebuild when only the code changes.
