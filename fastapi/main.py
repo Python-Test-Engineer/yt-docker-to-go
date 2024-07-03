@@ -17,11 +17,8 @@ def index():
 @app.get("/users")
 def get_users():
 
-    # Making a GET request
     response = requests.get("https://api.github.com/users/python-test-engineer")
 
-    # check status code for response received
-    # success code - 200
     output = response.json()
     if response.status_code != 200:
         output = {"details": output, "success": False, "error": "API Error"}
