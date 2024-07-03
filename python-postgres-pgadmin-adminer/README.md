@@ -4,7 +4,11 @@ Combines PgAdmin and Adminer for DB viewing.
 
 Ensure Docker is running.
 
-Create venv and pip install requirments.
+Create venv and pip install requirments if you want to use the `sql_postgres files`.
+
+`docker compose up -d`
+
+Postgres can take a minute or to be ready.
 
 
 ### Tested: 28JUN2024
