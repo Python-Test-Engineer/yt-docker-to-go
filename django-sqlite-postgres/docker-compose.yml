@@ -6,7 +6,7 @@ services:
       - .:/django
     ports:
       - 8000:8000
-    image: app:django
+    image: django-app:django
     container_name: django_container
     command: >
       sh -c "python manage.py makemigrations && \
