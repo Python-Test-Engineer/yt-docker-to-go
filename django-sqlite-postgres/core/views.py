@@ -9,8 +9,7 @@ def index(request):
     date_time = now.strftime("%d/%m/%Y, %H:%M:%S")
     output = f"<div style='width: 600px; margin: 40px auto;font-family: sans-serif'>"
     output += f"<h2 style='color:#676767'>Hello, world! The time is {date_time}</h2>"
-    output += f"<h2 style='color:#676767'>Hello, world! The time is {date_time}</h2>"
-    output += f"<p style='font-size: 42px;color:red;'>Reload</p>"
+    output += f"<p style='font-size: 20px'>Qui irure ea dolore magna sint fugiat sint excepteur adipisicing officia fugiat amet. Exercitation aute labore consectetur aliquip. Eu dolor do nulla culpa id voluptate laborum non. Adipisicing amet ullamco ad nostrud eiusmod laboris ad dolore aliqua velit occaecat enim non mollit.</p>"
     output += "</div>"
     return HttpResponse(output)
 
