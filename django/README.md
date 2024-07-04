@@ -1,6 +1,17 @@
 # Docker dev
 
 [YT Video]()
+
+## Venv
+
+Only needed if running sql_postgres scripts as we need to connect to Postgres
+
+## Using Postgres
+
+Use yt-post... to set up Postgres container...do this first before Django
+[link](https://github.com/Python-Test-Engineer/yt-docker-to-go/tree/main/python-postgres-pgadmin-adminer)
+
+copy contents of settings_postgres.py to settings.py (or combine and comment/uncomment as needed).
 ## Set up
 
 Create venv and install...
@@ -18,3 +29,7 @@ root@c46509fc6029:/django# python manage.py createsuperuser
 ## Development
 
 Add code as usual in the app.
+
+
+
+
