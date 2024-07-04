@@ -80,13 +80,20 @@ WSGI_APPLICATION = "core.wsgi.application"
 #     }
 # }
 
+### in sql_postgres scripts connect as follows:
+# conn = psycopg2.connect(
+#     database="postgres",
+#     user="postgres",
+#     password="postgres",
+#     host="host.docker.internal",
+# )
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "postgres",
-        "HOST": "postgres",
+        "HOST": "host.docker.internal",
         "PORT": "5432",
     }
 }
