@@ -1,6 +1,6 @@
 # Docker dev
 
-[YT Video]()
+[YT Video](https://www.youtube.com/watch?v=pwlt8BTYsOU&list=PLsszRSbzjyvklQ2LAjNEURKYAYglUgHsB&index=3)
 
 ## Venv
 
