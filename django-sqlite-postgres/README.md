@@ -8,8 +8,10 @@ Only needed if running sql_postgres scripts as we need to connect to Postgres
 
 ## Using Postgres
 
-Use yt-post... to set up Postgres container...do this first before Django
-[link](https://github.com/Python-Test-Engineer/yt-docker-to-go/tree/main/python-postgres-pgadmin-adminer)
+Use python-postgres-pgadmin-admine to set up Postgres container...do this first beforesetting up Django
+
+- [link](https://github.com/Python-Test-Engineer/yt-docker-to-go/tree/main/python-postgres-pgadmin-adminer)
+- [video]([YouTube](https://youtu.be/mipRKPHwlBkI))
 
 copy contents of settings_postgres.py to settings.py (or combine and comment/uncomment as needed).
 ## Set up
