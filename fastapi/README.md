@@ -35,6 +35,10 @@ Changes to .env file are not detected seemingly so one will need to rebuild. The
 
 Copy contents of `DockerfileMultiStage` to `Dockerfile` and repeat steps.
 
+`docker build -t fastapi-test .`
+
+`docker run -it --rm fastapi-test sh`
+
 `docker run -it --rm fastapi-test sh` opens shell.
 
 `ls`
