@@ -1,7 +1,7 @@
 from os import environ as env
 from fastapi import FastAPI
 import requests
-
+from datetime import datetime
 
 app = FastAPI()
 
@@ -11,7 +11,9 @@ def index():
     DB_URL = env["DB_URL"]
     print(DB_URL)
     output = f"Hot reloading works! 👏 DB_URL = {DB_URL} 🚀"
-    return {"details": output, "success": True, "error": None}
+    now = datetime.now()  # current date and time
+    date_time = now.strftime("%d/%m/%Y, %H:%M:%S")
+    return {"details": output, "success": True, "error": None, "timestamp": date_time}
 
 
 @app.get("/users")

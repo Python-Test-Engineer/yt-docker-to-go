@@ -25,7 +25,7 @@ INFO:     Will watch for changes in these directories: ['C:\\Users\\mrcra\\Deskt
 
 First time run `docker compose up --build` to build image
 
-Then next time `dockeer compose up` is fine
+Then next time `docker compose up` is fine
 
 You will see in console `fastapi-web-1  | WARNING:  WatchFiles detected changes in 'main.py'. Reloading...` when you change main.py as hot reloading is active due to bind mount and the --reload flag in sh command.
 
