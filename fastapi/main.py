@@ -12,7 +12,7 @@ def index():
     print(DB_URL)
     output = f"Hot reloading works! 👏 DB_URL = {DB_URL} 🚀"
     now = datetime.now()  # current date and time
-    date_time = now.strftime("%d/%m/%Y, %H:%M:%S")
+    date_time = f'Date and Time now: { now.strftime("%d/%m/%Y, %H:%M:%S") }'
     return {"details": output, "success": True, "error": None, "timestamp": date_time}
 
 

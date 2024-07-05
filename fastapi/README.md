@@ -30,3 +30,16 @@ Then next time `docker compose up` is fine
 You will see in console `fastapi-web-1  | WARNING:  WatchFiles detected changes in 'main.py'. Reloading...` when you change main.py as hot reloading is active due to bind mount and the --reload flag in sh command.
 
 Changes to .env file are not detected seemingly so one will need to rebuild. These do not change often unlike code.
+
+## Multistage
+
+Copy contents of `DockerfileMultiStage` to `Dockerfile` and repeat steps.
+
+`docker run -it --rm fastapi-test sh` opens shell.
+
+`ls`
+`cat test.txt` will display contents of artifact created in dev part of multistage build and copied into dev stage.
+
+A dangling image `none` is created.
+
+This can be removed with `docker image prune` in CLI or in a script.

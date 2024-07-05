@@ -1,7 +1,7 @@
 
 # version no longer needed - deprecated
 services:
-  api:
+  test:
     build: .
     command: sh -c "uvicorn main:app --reload --port=8000 --host=0.0.0.0"
     env_file: # changes to .env file require rebuilding of image
